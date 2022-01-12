@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   ver = "1.3.5"
   #libver = libname + "-" + ver
   #source = "https://downloads.xiph.org/releases/" + name + "/" + libver + ".tar.xz"
-  sha1 = "7b4cdd4a73fadfed457ae40984cb0cc91146b300"
+  #sha1 = "7b4cdd4a73fadfed457ae40984cb0cc91146b300"
 
   s.name         = "libvorbis"
   s.version      = ver
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { 
-                     :sha1 => sha1 }
+  #s.source       = { :http => source,
+  #                   :sha1 => sha1 }
 
   s.prepare_command = <<-'CMD'
                       echo 'framework module vorbis {' > vorbis.modulemap

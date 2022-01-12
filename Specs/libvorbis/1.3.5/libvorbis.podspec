@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   ver = "1.3.5"
   libver = libname + "-" + ver
   source = "https://downloads.xiph.org/releases/" + name + "/" + libver + ".tar.xz"
-  sha1 = "7b4cdd4a73fadfed457ae40984cb0cc91146b300"
+  sha1 = "ba54760b8f44bd85b79222286faf5d6a21e356fe"
 
   s.name         = "libvorbis"
   s.version      = ver
